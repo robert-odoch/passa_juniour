@@ -1,0 +1,39 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 19, 2017, 10:27:20 AM
+    Author     : hp
+*/
+
+
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.fade.in {
+    opacity: 1;
+}
+.modal {
+    display: block;
+    padding-left: 17px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    background-color: rgba(0,0,0,0.5);
+}
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
